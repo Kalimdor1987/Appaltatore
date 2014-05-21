@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TourInteractiveIs2Activity!</string>
+	<string name="app_name">InteractiveTour</string>
+    <string name="prova">prova</string>
+    	<string name="sub_activity_label">Descrizione PDI</string>
+        	<string name="app_nameTour">Interactive tour</string>
+    
+</resources>

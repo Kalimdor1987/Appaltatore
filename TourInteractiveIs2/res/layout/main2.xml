@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_width="match_parent">
+        <TextView android:id="@+id/textViewDA" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="DA :" android:textSize="20dip"></TextView>
+        <TextView android:id="@+id/textViewDAin" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Attendi" android:textSize="23dip"></TextView>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout2" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal">
+        <TextView android:text="A :" android:id="@+id/textViewA" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="20dip"></TextView>
+        <TextView android:text="Attendi" android:id="@+id/textViewAin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="23dip"></TextView>
+    </LinearLayout>
+	<ListView android:id="@+id/personListView"
+		android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="#CCC" android:cacheColorHint="#fff"
+  android:fastScrollEnabled="false" android:clickable="true"
+  android:layout_marginBottom="36dp">
+	</ListView>
+</LinearLayout>
